@@ -10,7 +10,7 @@ spring:
 
   ai:
     google:
-      api-key: YOUR_GEMINI_API_KEY   # ✅ Put your key here
+      api-key: AlzaSyCMCq357na4bHRSRzprcyGSqGk1xflkskQ   # ✅ Put your key here
 
       gemini:
         model: gemini-1.5-flash   # ✅ fast + cheap + good
