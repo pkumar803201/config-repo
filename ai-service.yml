@@ -1,0 +1,16 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: ai-service
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  ai:
+    google:
+      api-key: YOUR_GEMINI_API_KEY   # ✅ Put your key here
+
+      gemini:
+        model: gemini-1.5-flash   # ✅ fast + cheap + good
