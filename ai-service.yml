@@ -11,7 +11,7 @@ spring:
   ai:
     google:
       genai:
-        api-key: YOUR_GEMINI_API_KEY   # ✅ FIXED location
+        api-key: AlzaSyCMCq357na4bHRSRzprcyGSqGk1xflkskQ   # ✅ FIXED location
 
     chat:
       options:
