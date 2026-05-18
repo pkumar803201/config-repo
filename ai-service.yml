@@ -10,12 +10,14 @@ spring:
 
   ai:
     google:
-      api-key: AlzaSyCMCq357na4bHRSRzprcyGSqGk1xflkskQ   # ✅ Put your key here
+      genai:
+        api-key: YOUR_GEMINI_API_KEY   # ✅ FIXED location
 
-      gemini:
-        model: gemini-1.5-flash   # ✅ fast + cheap + good
+    chat:
+      options:
+        model: gemini-1.5-flash        # ✅ FIXED location
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eurek
+      defaultZone: http://localhost:8761/eureka   # ✅ FIXED
